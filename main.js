@@ -1,13 +1,13 @@
 //1. A function which prints str after n seconds.
 
 function printTimeout(str, n) {
+	let t = n*1000;
 	setTimeout(function () {
-		return(str);
-	}, n);
-	console.log(str);
+		console.log(str)
+	}, t);
 }
-printTimeout('hello', 10);
 
+printTimeout('Hello', 10);
 
 //2.A function which returns sum of all numbers from 1 to n using recursion.
 
